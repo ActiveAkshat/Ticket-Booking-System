@@ -36,11 +36,7 @@ def open_homepage():
         elif transport_mode == 0:
             print("Search for trains")
             # Add your logic to search for trains
-        connection = get_sql_connection()
-        all_trains = get_all_trains(connection)
-        connection.close()
-        for trains in all_trains:
-            print(trains)
+        display_trains()
 
     def select_date():
         def set_selected_date():
