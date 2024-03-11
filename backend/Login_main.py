@@ -2,6 +2,7 @@ import tkinter as tk
 from firebase_admin import db, credentials, initialize_app
 from tkcalendar import Calendar
 
+from backend.list_of_flights import display_flights
 from backend.list_of_trains import display_trains
 from backend.trains_dao import get_all_trains
 from flights_dao import get_all_flights, get_flights_date
@@ -27,11 +28,7 @@ def open_homepage():
         if transport_mode == 1:
             print("Search for airplanes")
             # Add your logic to search for airplanes
-            connection = get_sql_connection()
-            all_flights = get_all_flights(connection)
-            connection.close()
-            for flight in all_flights:
-                print(flight)
+            display_flights()
 
         elif transport_mode == 0:
             print("Search for trains")
