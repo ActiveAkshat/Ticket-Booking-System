@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c7fee24a-b010-42b6-8c03-b25f5f92ef1f" name="Changes" comment="" />
+    <list default="true" id="c7fee24a-b010-42b6-8c03-b25f5f92ef1f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/Login_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/Login_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/flights_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/flights_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/list_of_flights.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/list_of_flights.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/sql_connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/sql_connection.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,16 +37,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.Login_main (1).executor": "Debug",
+    "Python.Login_main (1).executor": "Run",
     "Python.Login_main.executor": "Run",
+    "Python.bookTrainTicketForm.executor": "Run",
     "Python.exp_5.executor": "Run",
     "Python.flights_dao.executor": "Run",
+    "Python.list_of_trains.executor": "Run",
+    "Python.ticketBookingSystem.executor": "Run",
     "Python.trains_dao.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/admin/Desktop/pythonProjectTicketManagement"
+    "last_opened_file_path": "C:/Users/admin/Desktop/TicketManagementSystem/Mini-Project"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -70,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Login_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="bookTrainTicketForm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectTicketManagement" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,11 +89,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\admin\Desktop\pythonProjectTicketManagement\backend\Login_main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/bookTrainTicketForm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,7 +146,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="trains_dao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ticketBookingSystem" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProjectTicketManagement" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/trains_dao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/backend/ticketBookingSystem.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,10 +171,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.Login_main (1)" />
-        <item itemvalue="Python.exp_5" />
-        <item itemvalue="Python.Login_main" />
+        <item itemvalue="Python.bookTrainTicketForm" />
         <item itemvalue="Python.flights_dao" />
-        <item itemvalue="Python.trains_dao" />
+        <item itemvalue="Python.ticketBookingSystem" />
+        <item itemvalue="Python.exp_5" />
       </list>
     </recent_temporary>
   </component>
@@ -190,24 +200,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/Login_main.py</url>
-          <line>26</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/Login_main.py</url>
-          <line>115</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/Login_main.py</url>
-          <line>34</line>
+          <url>file://$PROJECT_DIR$/backend/sql_connection.py</url>
+          <line>4</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/backend/Login_main.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

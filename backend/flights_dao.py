@@ -26,14 +26,25 @@ def get_all_flights(connection):
 
     return response
 
-def get_flights_date(date, connection):
+def get_flights_date(date,source,destination, connection):
     cursor = connection.cursor()
-    query = "SELECT * FROM bookingsystem.flights WHERE date = %s"
-
-    cursor.execute(query, (date,))
-
+    print (date)
+    if date is None or date == "DD-MM-YYYY":
+        print("11111")
+        query = "Select * from bookingsystem.flights where source = %s and destination = %s;"
+        # cursor.execute(query, (date,))
+        cursor.execute(query, (source, destination))
+    else:
+        query = "Select * from bookingsystem.flights where date = %s and source = %s and destination = %s;"
+        print("2222222")
+        # cursor.execute(query, (date,))
+        cursor.execute(query, (date, source, destination))
+    # query = "SELECT * FROM bookingsystem.flights WHERE date = %s"
+    # query = "Select * from bookingsystem.flights where date = %s and source = %s and destination = %s;"
+    # # cursor.execute(query, (date,))
+    # cursor.execute(query, (date,source,destination))
     response = []
-    for (flight_id, flight_name, source, destination, departure_time, arrival_time, fare) in cursor:
+    for (flight_id, flight_name, source, destination, departure_time, arrival_time, fare,date) in cursor:
         response.append(
             {
                 'flight_id': flight_id,
